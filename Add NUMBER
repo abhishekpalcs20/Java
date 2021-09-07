@@ -1,0 +1,12 @@
+package abhishek;
+
+import java.util.Scanner;
+
+public class Abhishek
+{
+    public static void main(String... PankajSharma)
+    {
+        Scanner sc=new Scanner(System.in);
+
+    }
+}
