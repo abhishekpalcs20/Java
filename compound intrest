@@ -1,0 +1,17 @@
+package abhi;
+
+import java.util.Scanner;
+public class Name {
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the price");
+        int p=sc.nextInt();
+        System.out.println("Enter rate of interest");
+        int r=sc.nextInt();
+        System.out.println("Enter time duration ");
+        int t=sc.nextInt();
+        float ci= (float) Math.pow(p*(1+r/100),t);
+        System.out.println("Total intrest is "+ci);
+    }
+}
