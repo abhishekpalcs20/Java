@@ -1,0 +1,67 @@
+package abhi;
+
+import java.util.Scanner;
+
+class Calculator
+{
+    public void add(int a , int b)
+    {
+        int add=a+b;
+        System.out.println("Addition is "+add);
+    }
+    public void sub(int a,int b)
+    {
+        int sub=a>b?a-b:b-a;
+
+        System.out.println("Substraion is : "+sub);
+    }
+    public void mul(int a ,int b)
+    {
+        int mul=a*b;
+        System.out.println("Multipliaction is : "+mul);
+    }
+    public void div(int a , int b)
+    {
+        int div=a/b;
+        System.out.println("Division is "+div);
+    }
+}
+//this is our main class
+public class SumOfClass
+{
+    public static void main(String[] args)
+    {
+        Calculator calc=new Calculator();
+        Scanner sc=new Scanner(System.in);
+
+        int p;
+        do {
+            System.out.println("Enter 1st Number");
+            int num1=sc.nextInt();
+            System.out.println("Enter 2nd number ");
+            int num2=sc.nextInt();
+            System.out.println("You Entered Number is "+num1+" And "+num2);
+            int c;
+            System.out.println("Please Choose Right Option \n 1 for Additon \n 2 for substration \n 3 for multiply \n 4 for division");
+            c=sc.nextInt();
+            switch (c) {
+                case 1:
+                    calc.add(num1, num2);
+                    break;
+                case 2:
+                    calc.sub(num1, num2);
+                    break;
+                case 3:
+                    calc.mul(num1, num2);
+                    break;
+                case 4:
+                    calc.div(num1, num2);
+                    break;
+                default:
+                    System.out.println("Chutiya hai kya?");
+            }
+            System.out.println("1 for continue ");
+            p = sc.nextInt();
+        } while (p==1);
+    }
+}
