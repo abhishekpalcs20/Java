@@ -1,0 +1,18 @@
+package abhi;
+
+import java.util.Scanner;
+//SI=P*r*t/100
+public class Name {
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the price");
+        int p=sc.nextInt();
+        System.out.println("Enter rate of interest");
+        int r=sc.nextInt();
+        System.out.println("Enter time duration ");
+        int t=sc.nextInt();
+        float si=(p*r*t)/100;
+        System.out.println("Total intrest is "+si);
+    }
+}
