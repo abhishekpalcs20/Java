@@ -1,0 +1,42 @@
+ 
+Set 1
+
+1	Object-oriented programming uses classes and objects. What are classes and what are objects? What is the relationship between classes and objects?
+2	Explain carefully what null means in Java, and why this special value is necessary.
+3	What are the three parts of a simple empty class explain with example?
+4	What is a constructor? What is the purpose of a constructor in a class?
+5	What is meant by the terms instance variable and instance method?
+6	Explain what is meant by the terms subclass and superclass.
+7	Explain the term polymorphism.
+8	Java uses "garbage collection" for memory management. Explain what is meant here by garbage collection. What is the alternative to garbage collection?
+9	Bring out the importance of inheritance with the help of an example?
+10	When do we declare the members of the class as static explain with example?
+11	When do we declare a method or class as final explain with example?
+12	What is the advantage of using “this” keyword, explain?
+13	Explain about inner classes with an example?
+15	Explain the use of super() method in invoking a constructor?
+16	When does a base class variable get hidden, Give reasons?
+17	Explain with an example how we can access a hidden base class variable?
+18 	What is meant by instance block ?
+19	What is meant by static block?
+20	Explain when to use instance block , static block and constructor
+21	What do you mean by PIE principles?
+
+Set 2
+
+1	What is JDK?
+2	What is JRE?
+3	What is JIT compiler?
+4	What is Class Loader?
+5	What is Byte Code Verifier?
+6	What is a Compiler?
+7	What is an Interpreter?
+8	What is the difference between a Compiler and Interpreter?
+9	What are the components of JVM?
+10	What is Platform Independent?
+11	How does Java achieve Platform independence?
+12	How to access command line arguments?
+13	What are the data types in Java and what are their sizes?
+14	How do you declare an array in Java?
+15	How do you find the length of an array in Java?
+16	What are all the characteristic features of Java Programming language?
