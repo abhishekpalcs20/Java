@@ -1,0 +1,24 @@
+package com.String;
+
+public class Main {
+
+    public static void main(String[] args){
+        //string replace
+        //String name ="Abhishek";
+        //String name2 =name.replace('b','a');
+        //System.out.println(name2);
+        //string substact
+        //String name ="abhishek" + "pal";
+        //System.out.println(name.substring(0,1));
+        // string concatenate
+        String name = "abhishek";
+        String name2 = " pal ";
+        String name3 = name + name2;
+        System.out.println(name3);
+
+
+
+
+
+    }
+}
